@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Guru</title>
+
+	<!-- FONT LOAD -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,500italic,700italic,700' rel='stylesheet' type='text/css'>
+
+	<!-- BOOTSTRAP & FONT AWESOME-->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<!-- ANIMATE.CSS -->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- MAIN.CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	
+	
+</head>
+<body>
+	<div class="site-wrapper">
+      	<div class="site-wrapper-inner">
+        	<div class="cover-container">
+          		<div class="masthead clearfix">
+           			<div class="inner">
+              			<h3 class="masthead-brand"><a href="#"><img src="img/logo.png" alt=""></a></h3>
+              			<ul class="nav masthead-nav">
+			                <li class="active"><a href="#">Khóa học</a></li>
+			                <li><a href="#" class="open-register-modal">Đăng ký</a></li>
+			                <li><a href="#" class="open-login-modal">Đăng nhập</a></li>
+			                <li><a href="#">Ngôn ngữ</a></li>
+             			</ul>
+            		</div>
+         		</div>
+
+         		<!-- Modal load -->
+         		<div class="modal register-modal container">
+					<div class="modal-heading">
+						<h4>Đăng ký mới</h4>
+					</div>
+					<form action="">
+						<div class="row">
+							<div class="col-xs-6">
+								<input type="text" class="form-control" placeholder="Tên đăng nhập *" name="username">
+								<input type="email" name="email" placeholder="Email *" class="form-control">
+								<input type="password" placeholder="Mật khẩu *" class="form-control" name="password">
+								<input type="password" placeholder="Xác nhận mật khẩu *" class="form-control" name="password-retype">
+								<button class="btn btn-primary form-submit" type="submit">Đăng ký</button>
+							</div>
+							<div class="col-xs-6">
+								<div class="form-notif">
+									<p>- Tên đăng nhập từ 6-15 ký tự</p>
+									<p>- Địa chỉ email phải xác thực</p>
+									<p>- Mật khẩu từ 6-15 ký tự</p>
+									<p>- Nhập lại mật khẩu</p>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal login-modal container">
+					<div class="modal-heading">
+						<h4>Đăng nhập</h4>
+					</div>
+					<form action="">
+						<div class="row">
+							<div class="col-xs-12">
+								<input type="text" class="form-control" placeholder="Tên đăng nhập hoặc email" name="username">
+								<input type="password" placeholder="Mật khẩu" class="form-control" name="password">
+								<button class="btn btn-primary form-submit" type="submit">Đăng nhập</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- /Modal load -->
+
+          		<div class="inner cover">
+	            	<h2 class="cover-heading">Giải pháp học tập online trong tầm tay bạn!</h2>
+	            	<form class="cover-search">
+				  	<input type="text" class="form-control" placeholder="Bạn đang tìm kiếm những kiến thức gì?">
+				  	<button class="cover-btn btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+					</form>
+					<div class="row">
+						<div class="col-sm-6">
+							<ul class="feature">
+								<li><i class="glyphicon glyphicon-user"></i> Đã có 52398 người tham gia</li>
+								<li><i class="fa fa-book"></i> Hơn 1200 khóa học khác nhau</li>
+								<li><i class="fa fa-comments"></i> Tính năng trao đổi thân thiện</li>
+							</ul>
+						</div>
+						<div class="col-sm-6">
+							<ul class="feature">
+								<li><i class="fa fa-star"></i> Đánh giá chất lượng khóa học</li>
+								<li><i class="fa fa-rss"></i> Nhận tin khóa học mới</li>
+								<li><i class="glyphicon glyphicon-phone"></i> Hỗ trợ trên cả thiết bị di động</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+			            <a href="#" class="contributing">
+							Bạn muốn đóng góp khóa học mới ? Tại sao không ?
+						</a>
+		            </div>
+          		</div>
+  		  	</div> <!--cover-->
+      	</div> <!--wrapper-->
+    </div>
+    <!-- MAIN -->
+    <div class="main gray">
+	    <div class="container">
+	    	<div class="topics">
+	    		<div class="row">
+	    			<div class="col-xs-12">
+	    				<h2 class="topic-heading">Cùng trải nghiệm những khóa học thú vị tại Guru Education!</h2>
+	    			</div>
+	    		</div>
+				<div class="row">
+					<div class="col-lg-2 col-sm-4 col-xs-6">
+						<a href="#" class="topic-box box-green">
+							<div>
+								<i class="fa fa-briefcase fa-3x"></i>
+								<h3>Kinh doanh</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-2 col-sm-4 col-xs-6">
+						<a href="#" class="topic-box box-blue">
+							<div>
+								<i class="fa fa-camera-retro fa-3x"></i>
+								<h3>Nghệ thuật</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-2 col-sm-4 col-xs-6">
+						<a href="#" class="topic-box box-mango">
+							<div>
+								<i class="fa fa-music fa-3x"></i>
+								<h3>Âm nhạc</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-2 col-sm-4 col-xs-6">
+						<a href="#" class="topic-box box-dark">
+							<div>
+								<i class="fa fa-heart fa-3x"></i>
+								<h3>Sức khỏe</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-2 col-sm-4 col-xs-6">
+						<a href="#" class="topic-box box-red">
+							<div>
+								<i class="fa fa-globe fa-3x"></i>
+								<h3>Ngoại ngữ</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-2 col-sm-4 col-xs-6">
+						<a href="#" class="topic-box box-purple">
+							<div>
+								<i class="fa fa-rocket fa-3x"></i>
+								<h3>Công nghệ</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div><!--topics-->
+			<div class="courses">
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<div class="course-box">
+							<div>
+								<img src="img/1.jpg" class="course-img" alt="">
+								<span class="course-title-box">
+									<h3 class="course-title">
+										Hướng dẫn lập trình trên windows phone 8.1
+									</h3>
+								</span>
+								<div class="author">
+									<img src="img/ava1.jpg" class="author-avatar img-thumbnail" alt="">
+									<div class="author-details">
+									<a href="#" class="author-name">Phan Chính Dũng</a>
+									<span class="author-title">Guru founder</span>
+									</div>
+								</div>
+							</div>
+							<div class="course-info row">
+								<div class="col-xs-4">
+									<i class="fa fa-users"></i> 1269
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-star"></i> 3.5
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-dollar"></i> 69
+								</div>
+							</div>
+							<div class="course-details">
+								<i class="fa fa-arrow-up"></i>
+								<p>Programming Paradigms (CS107) introduces several programming languages, including C, Assembly, C++, Concurrent Programming, Scheme, and Python. The class aims to teach students how to write code for each of these individual languages and to understand the programming paradigms behind these languages. Start learning the programming paradigms now.</p>
+								<a href="#" class="course-enroll">Tham gia!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="course-box">
+							<div>
+								<img src="img/2.jpg" class="course-img" alt="">
+								<span class="course-title-box">
+									<h2 class="course-title">
+										Tiếng Anh giao tiếp cho doanh nhân
+									</h2>
+								</span>
+								<div class="author">
+									<img src="img/ava2.jpg" class="author-avatar img-thumbnail" alt="">
+									<div class="author-details">
+									<a href="#" class="author-name">Trần Khánh Duy</a>
+									<span class="author-title">Guru founder</span>
+									</div>
+								</div>
+							</div>
+							<div class="course-info row">
+								<div class="col-xs-4">
+									<i class="fa fa-users"></i> 739
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-star"></i> 4.0
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-dollar"></i> 35
+								</div>
+							</div>
+							<div class="course-details">
+								<i class="fa fa-arrow-up"></i>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, esse, sint, earum, nisi magni vitae expedita soluta sit molestias voluptates corporis voluptatem dolore debitis! Aperiam iste consequatur explicabo quibusdam voluptatum?</p>
+								<a href="#" class="course-enroll">Tham gia!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="course-box">
+							<div>
+								<img src="img/3.jpg" alt="" class="course-img">
+								<span class="course-title-box">
+									<h2 class="course-title">
+										Xác định chiến lược tài chính hợp lý
+									</h2>
+								</span>
+								<div class="author">
+									<img src="img/ava3.jpg" class="author-avatar img-thumbnail" alt="">
+									<div class="author-details">
+									<a href="#" class="author-name">Nguyễn Phan Lộc</a>
+									<span class="author-title">Guru founder</span>
+									</div>
+								</div>
+								<div class="course-details">
+								<i class="fa fa-arrow-up"></i>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, ipsam molestias nihil nostrum at assumenda rem tenetur nemo enim dolore. Ratione, recusandae, incidunt iusto eum quam quas nostrum aliquam similique dolores at beatae voluptas odio ea. Necessitatibus quasi sit reprehenderit. Perferendis, culpa molestiae quam eum nam vel pariatur voluptate consequatur.</p>
+								<a href="#" class="course-enroll">Tham gia!</a>
+							</div>
+							</div>
+							<div class="course-info row">
+								<div class="col-xs-4">
+									<i class="fa fa-users"></i> 3011
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-star"></i> 4.5
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-dollar"></i> Free
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<div class="course-box">
+							<div>
+								<img src="img/4.jpg" class="course-img" alt="">
+								<span class="course-title-box">
+									<h2 class="course-title">
+										Guitar căn bản cho người mới bắt đầu
+									</h2>
+								</span>
+								<div class="author">
+									<img src="img/ava4.jpg" class="author-avatar img-thumbnail" alt="">
+									<div class="author-details">
+									<a href="#" class="author-name">Nguyễn Ánh Chính</a>
+									<span class="author-title">Guitarist</span>
+									</div>
+								</div>
+								<div class="course-details">
+								<i class="fa fa-arrow-up"></i>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, libero, quod deleniti dolores rem cupiditate explicabo quaerat deserunt nemo error possimus voluptate veniam distinctio magnam vel voluptas eos. Quos, vero.</p>
+								<a href="#" class="course-enroll">Tham gia!</a>
+							</div>
+							</div>
+							<div class="course-info row">
+								<div class="col-xs-4">
+									<i class="fa fa-users"></i> 773
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-star"></i> 4.0
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-dollar"></i> 29
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="course-box">
+							<div>
+								<img src="img/5.jpg" class="course-img" alt="">
+								<span class="course-title-box">
+									<h2 class="course-title">
+										Hướng dẫn làm sôcôla Ý Moussé de Viex
+									</h2>
+								</span>
+								<div class="author">
+									<img src="img/ava5.jpg" class="author-avatar img-thumbnail" alt="">
+									<div class="author-details">
+									<a href="#" class="author-name">Nguyễn Tố Vân</a>
+									<span class="author-title">Bếp trưởng nhà hàng Vintange</span>
+									</div>
+								</div>
+								<div class="course-details">
+								<i class="fa fa-arrow-up"></i>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, atque dolorem blanditiis delectus adipisci tempore consequatur iure sunt sequi unde ullam saepe minima officia deleniti quos optio natus tempora doloribus.</p>
+								<a href="#" class="course-enroll">Tham gia!</a>
+							</div>
+							</div>
+							<div class="course-info row">
+								<div class="col-xs-4">
+									<i class="fa fa-users"></i> 1022
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-star"></i> 4.5
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-dollar"></i> Free
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="course-box">
+							<div>
+								<img src="img/6.jpg" class="course-img" alt="">
+								<span class="course-title-box">
+									<h2 class="course-title">
+										Nghệ thuật trang điểm chuyên nghiệp
+									</h2>
+								</span>
+								<div class="author">
+									<img src="img/ava6.jpg" class="author-avatar img-thumbnail" alt="">
+									<div class="author-details">
+									<a href="#" class="author-name">Lê Thúy Vy</a>
+									<span class="author-title">Dresser eva.vn</span>
+									</div>
+								</div>
+								<div class="course-details">
+								<i class="fa fa-arrow-up"></i>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, delectus, inventore quae veritatis minus consectetur iure veniam reiciendis atque magni quam quos harum nemo deleniti deserunt illum placeat molestias autem laboriosam maiores molestiae soluta repudiandae! Facilis, aliquam, eius, sapiente, fugiat tempore quam molestias commodi deserunt quod quidem error iusto minus.</p>
+								<a href="#" class="course-enroll">Tham gia!</a>
+							</div>
+							</div>
+							<div class="course-info row">
+								<div class="col-xs-4">
+									<i class="fa fa-users"></i> 2392
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-star"></i> 4.0
+								</div>
+								<div class="col-xs-4">
+									<i class="fa fa-dollar"></i> 49
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="#" class="btn btn-primary see-more">
+							<h3>Xem thêm các khóa học khác tại Guru Education</h3>
+						</a>
+					</div>
+				</div>
+			</div><!--courses-->
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="testimonials">
+				<div class="row">
+					<div class="col-xs-12">
+						<h4 class="topic-heading">
+							Cộng đồng Guru nói gì ?
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 col-xs-12 testimonial">
+						<img src="img/ava1.jpg" class="testimonial-avatar" alt="">
+						<span class="testimonial-name">Phan Chính Dũng</span>
+						<span class="testimonial-title">Guru founder</span>
+						<div class="testimonial-box box-red">
+							<b class="poly-shape box-red"></b>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, minima, quam, ullam totam aliquid quaerat nesciunt blanditiis numquam obcaecati alias esse enim libero sapiente aperiam sunt debitis mollitia fugit dolores.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 testimonial">
+						<img src="img/ava6.jpg" class="testimonial-avatar" alt="">
+						<span class="testimonial-name">Thái Thị Tuyết Trâm</span>
+						<span class="testimonial-title">Thành viên</span>
+						<div class="testimonial-box box-teal">
+							<b class="poly-shape box-teal"></b>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum incidunt sequi suscipit vero quasi culpa molestiae maiores doloremque assumenda ab. Eveniet, blanditiis excepturi ad asperiores accusamus quaerat aut ipsam molestias.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 testimonial">
+						<img src="img/ava5.jpg" class="testimonial-avatar" alt="">
+						<span class="testimonial-name">Nguyễn Tố Vân</span>
+						<span class="testimonial-title">Giảng viên</span>
+						<div class="testimonial-box box-brown">
+							<b class="poly-shape box-brown"></b>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, exercitationem, delectus facilis ipsa dolore pariatur officia voluptatem odit temporibus quia error laboriosam numquam voluptate nisi quasi voluptates esse cum vel!</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-12 testimonial">
+						<img src="img/ava3.jpg" class="testimonial-avatar" alt="">
+						<span class="testimonial-name">Võ Thành Trung</span>
+						<span class="testimonial-title">Thành viên</span>
+						<div class="testimonial-box box-lime">
+							<b class="poly-shape box-lime"></b>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore, illo, exercitationem odio vero quidem rerum odit repellat quos ea aliquid cum labore perferendis et debitis impedit minus! Optio, eaque!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--testimonials-->
+	</div>
+	<div class="main light-gray">
+		<div class="container">
+			<div class="about-us">
+				<h4 class="topic-heading">
+					Guru Education
+				</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quidem dicta modi alias voluptates et cupiditate quia dolorum quo consequatur amet sunt enim quae qui delectus! Expedita, neque, mollitia, praesentium, aut unde modi provident repudiandae error laboriosam quaerat consectetur officiis culpa saepe. Veniam, earum cumque unde! Ad, praesentium aliquid pariatur labore facere sit porro molestias officia asperiores nostrum quam nam natus doloribus rerum similique minus delectus? Iusto, consequuntur, et, accusantium, repudiandae laudantium nesciunt temporibus quas architecto voluptas harum ducimus perspiciatis explicabo numquam praesentium perferendis labore quibusdam non fugiat. Voluptatum praesentium dolore inventore a tenetur neque modi odio recusandae eligendi culpa!
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer dark-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-6">
+					<div>
+						<span class="copy-right">
+						Copyright &copy; Guru 2014 - Bản quyền thuộc về guru.edu.vn
+						</span>
+						<span class="place">
+							88A-B Trần Huy Liệu p.5 Q.Phú Nhuận, HCMC - 0839876554
+						</span>
+						<a href="#" class="footer-link">
+							Our team
+						</a>
+						<a href="#" class="footer-link">
+							Blog
+						</a>
+						<a href="#" class="footer-link">
+							Facebook
+						</a>
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-6">
+					
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<div class="course-list-box row">
+						<div class="col-xs-4">
+							<ul class="course-list">
+								<li><a href="#"><i class="fa fa-trophy"></i> Thể thao</a></li>
+								<li><a href=""><i class="fa fa-university"></i> Giáo dục</a></li>
+								<li><a href=""><i class="fa fa-music"></i> Âm nhạc</a></li>
+								<li><a href="#"><i class="fa fa-heart"></i> Sức khỏe</a></li>
+								<li><a href=""><i class="fa fa-pencil"></i> Nghệ thuật</a></li>
+								
+							</ul>
+						</div>
+						<div class="col-xs-4">
+							<ul class="course-list">
+								<li><a href=""><i class="fa fa-briefcase"></i> Kinh doanh</a></li>
+								<li><a href=""><i class="fa fa-globe"></i> Ngoại ngữ</a></li>
+								<li><a href=""><i class="fa fa-rocket"></i> Công nghệ</a></li>
+								<li><a href=""><i class="fa fa-magic"></i> Khoa học xã hội</a></li>
+								<li><a href=""><i class="fa fa-flask"></i> Khoa học tự nhiên</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-4">
+							<ul class="course-list">
+								<li><a href=""><i class="fa fa-plane"></i> Du lịch</a></li>
+								<li><a href=""><i class="fa fa-paw"></i> Khám phá</a></li>
+								<li><a href=""><i class="fa fa-desktop"></i> Streaming</a></li>
+								<li><a href=""><i class="fa fa-wrench"></i> Do It Yourself</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JQUERY LOAD -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- MAIN.JS -->
+	<script src="js/main.js"></script>
+	<!-- MODAL.JS -->
+	<script src="js/easyModal.js"></script>
+</body>
+</html>
