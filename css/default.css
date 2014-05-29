@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding-left: 0;
+}
+
+body{
+	font-family: 'Roboto', serif;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.footer{
+  text-align: left;
+  text-shadow: none;
+  padding: 20px;
+}
+
+.place{
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.bot-fix{
+  height: 110px;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-links{
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-link{
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footer-link:after{
+  content:" | ";
+}
+
+.footer-link:hover, .course-list > li:hover{
+  text-decoration: underline;
+}
+
+.course-list{
+  list-style-type: none;
+}
+
+.course-list > li > a > i{
+  width: 14px;
+  margin-right: 5px;
+}
