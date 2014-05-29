@@ -34,18 +34,4 @@ $(document).ready(function(){
 	$('.course-details > i').on('click',function(){
 		$(this).closest('.course-box').find('.course-details').addClass('hide flipOutY');
 	});
-	/* Modal load */
-	$('.modal').easyModal({
-		overlay : 0.4,
-		overlayOpacity: 0.75,
-		overlayClose: true
-	});
-	$('.open-register-modal').click(function(e){
-		$('.register-modal').trigger('openModal');
-		e.preventDefault();
-	});
-	$('.open-login-modal').click(function(e){
-		$('.login-modal').trigger('openModal');
-		e.preventDefault();
-	});
 });
