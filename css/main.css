@@ -246,6 +246,7 @@ body {
   width: 100%; 
   padding: 25px 20px;
   bottom: 120px;
+  z-index: 3;
 }
 
 .course-title{
@@ -258,20 +259,25 @@ body {
   cursor: pointer;
 }
 
+.course-img-box{
+  position: relative;
+}
+
 .course-img-layer{
-  position: absolute;
-  width: 100%; 
-  height: 200px;
+  width: 100%; height: 100%;
+  position: absolute; 
   top: 0;
   background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.75) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,rgba(0,0,0,0.75))); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.75) 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.75) 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.75) 100%); /* IE10+ */
+  z-index: 2;
 }
 
 .course-img{
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -279,6 +285,7 @@ body {
   position: absolute;
   top: 0;
   background: rgba(252,86,56,1);
+  z-index: 4;
   padding: 10px;
   border-bottom-right-radius: 12px;
   text-transform: uppercase;
@@ -290,7 +297,7 @@ body {
   margin-left: 20px;
   width: 80px;
   position: relative;
-  z-index: 2;
+  z-index: 5;
   padding: 2px;
   border-radius: 0;
 }
@@ -316,19 +323,20 @@ body {
 }
 
 .course-info{
-  margin-top: 20px;
+  margin: 20px -15px;
   text-align: center;
   font-size: 16px;
 }
 
 .course-details{
   position: absolute;
-  width: 350px; height: 320px;
+  width: 100%; height: 100%;
   bottom: 0;
-  z-index: 3;
+  z-index: 6;
   padding: 30px;
   text-align: center;
   display: none;
+  background: rgba(0,0,0,0.9);
 }
 
 .course-details > i{
@@ -394,7 +402,7 @@ body {
 }
 
 .testimonial-avatar{
-  width: 150px; 
+  width: 140px; 
   border-radius: 50%;
 }
 
@@ -473,6 +481,17 @@ body {
   font-size: 12px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+
+.bot-fix{
+  height: 110px;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-links{
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-link{
@@ -656,139 +675,144 @@ body {
   }
 }
 
-@media (min-width: 644px){
+/* For large modern screen */
+@media (max-width: 1366px) and (min-width: 1288px){
+
+}
+
+/* Preset for all size */
+@media (max-width: 1287px) and (min-width: 480px){
+  .topic-box{
+    margin-top: 20px;
+  }
+  .course-box{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1287px) and (min-width: 1025px){
   .cover-heading{
+    font-size: 45px;
+  }
+  .author-name{
+    font-size: 16px;
+  }
+}
+
+/* For casual desktop #1 to 110% */
+@media (max-width: 1287px) and (min-width: 1171px){
+  .course-title{
+    font-size: 18px;
+  }
+}
+
+/* For casual desktop 110% to 125% */
+@media (max-width: 1170px) and (min-width: 1025px){
+  .course-details > p{
+    font-size: 12px;
+  }
+  .course-title{
+    font-size: 17px;
+  }
+}
+
+/* For smaller device 125% to 150% */
+@media (max-width: 1024px) and (min-width: 768px){
+  .cover-heading{
+    font-size: 40px;
+  }
+  .cover-search input{
+    width: 60%;
+    height: 46px;
+    font-size: 16px;
+  }
+  .cover-search button{
+    padding: 8px 16px;
+  }
+  .course-box{
+    margin-top: 20px;
+  }
+}
+
+/* Preset for full width course-box */
+@media (max-width: 992px) and (min-width: 480px){
+  .site-wrapper{
+    height: 768px;
+    min-height: 768px;
+  }
+  .course-box{
+    margin-top: 20px;
+  }
+  .cover-heading{
+    font-size: 40px;
+  }
+  .modal{
+    top: 35% !important;
+  }
+  .course-label{
+    font-size: 36px;
+    padding: 20px;
+  }
+  .course-title-box{
+    bottom: 35%;
+  }
+  .course-title{
     font-size: 30px;
   }
-  .cover-search input{
+  .course-details > p{
+    font-size: 20px;
+  }
+  .course-info{
+    font-size: 26px;
+  }
+  .author-avatar{
+    width: 140px;
+  }
+  .author-name{
+    font-size: 26px;
+  }
+  .author-title{
+    font-size: 22px;
+  }
+  .testimonial-box{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 480px){
+  .course-label{
+    font-size: 26px;
+    padding: 15px;
+  }
+  .course-title-box{
+    bottom: 45%;
+  }
+  .course-title{
+    font-size: 22px;
+  }
+  .author-name{
+    font-size: 20px;
+  }
+  .author-title{
+    font-size: 16px;
+  }
+  .course-details > p{
     font-size: 14px;
-    width: 70%;
   }
 }
 
-@media (min-width: 736px){
-  .cover.inner{
-    margin-top: 50px;
-  }
-  .cover-search input{
-    height: 55px;
-  }
-  .testimonial-box{
-    margin-bottom: 20px;
-  }
+/* For medium desktop view */
+@media (width: 1024px){
+
 }
 
-@media (min-width: 858px){
-  .site-wrapper{
-    height: 768px;
-    min-height: 768px;
-  }
-  .cover-heading{
-    font-size: 40px;
-  }
-  .cover-search input{
-    font-size: 20px;
-  }
-  .modal{
-    top: 35% !important;
-  }
-  .cover.inner{
-    margin-top: 0;
-  }
-  .testimonial-box{
-    margin-bottom: 0;
-  }
+/* For standard tablet view */
+@media (width: 768px){
+  
 }
 
-@media (min-width: 1020px){
-  .cover-heading{
-    font-size: 50px;
-  }
-  .cover-search input{
-    width: 82%;
-  }
-  .topic-box{
-    margin-top: 20px;
-  }
-  .course-box{
-    width: 300px;
-    height: 290px;
-    margin-top: 20px;
-  }
-  .course-title-box{
-    bottom: 149px;
-  }
-  .course-img-layer{
-    height: 171px;
-  }
-}
-
-
-@media (min-width: 1281px){
-  .cover-search input{
-    width: 75%;
-    height: 56px;
-  }
-  .topic-box{
-    margin-top: 0px;
-  }
-  .course-box{
-    width: 350px;
-    height: 320px;
-    margin-top: 20px;
-  }
-  .course-title-box{
-    bottom: 120px;
-  }
-  .course-img-layer{
-    height: 200px;
-  }
-}
-
-@media (max-width: 1024px){
-  .cover-search input{
-    width: 82%;
-    height: 56px;
-  }
-  .topic-box{
-    margin-top: 20px;
-  }
-  .course-box{
-    width: 300px;
-    height: 290px;
-    margin-top: 20px;
-  }
-  .course-title-box{
-    bottom: 149px;
-  }
-  .course-img-layer{
-    height: 171px;
-  }
-}
-
-@media (max-width: 768px){
-  .site-wrapper{
-    height: 768px;
-    min-height: 768px;
-  }
-  .cover-heading{
-    font-size: 40px;
-  }
-  .cover-search-input{
-    font-size: 20px;
-  }
-  .modal{
-    top: 35% !important;
-  }
-}
-
-@media (max-width: 736px){
-  .testimonial-box{
-    margin-bottom: 20px;
-  }
-}
-
-/* phone */
+/* For standard phone */
 @media (max-width: 480px){
   .cover-heading{
     font-size: 30px;
