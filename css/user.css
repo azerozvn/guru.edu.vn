@@ -1,0 +1,22 @@
+body{
+	color: #fff;
+}
+
+
+/* Responsive */
+
+@media (max-width: 767px){
+	.navbar-toggle{
+		margin-right: 25px;
+	}
+	.navbar-toggle .icon-bar{
+		background: #fff !important;
+	}
+	.navbar-nav{
+		margin: 0;
+	}
+	.navbar-form.navbar-right{
+		width: 100% !important;
+		margin: 8px 0;
+	}
+}
