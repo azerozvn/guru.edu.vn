@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User</title>
+	
+	<!-- FONT LOAD -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,500italic,700,400italic,700italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+	<!-- BOOTSTRAP & FONT AWESOME-->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<!-- ANIMATE.CSS -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- DEFAULT.CSS -->
+	<link rel="stylesheet" href="css/default.css">
+	<!-- TOOL.CSS -->
+	<link rel="stylesheet" href="css/tool.css">
+	<!-- MAIN.CSS -->
+	<link rel="stylesheet" href="css/user.css">
+	
+</head>
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+	  	<div class="container-fluid navbar-custom box-prime">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+		      	<img src="img/logo.png" alt="" class="logo"></a>
+		      	<span class="logo-title">--- Không gian giáo dục hàng đầu Việt Nam</span>
+		    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  	
+	      	<ul class="nav navbar-nav navbar-right navbar-inner">
+	      		<li><a href="#" >Khóa học</a></li>
+		        <li><a href="#" class="open-register-modal">Đăng ký</a></li>
+		        <li><a href="#" class="open-login-modal">Đăng nhập</a></li>
+	      	</ul>
+	      	<form class="navbar-form navbar-right search-bar" role="search">
+		        <div class="input-group">
+				<input type="text" placeholder="Nhập khóa học bạn muốn tìm" class="form-control" autocomplete="off">
+				<span class="input-group-btn"><button class="btn box-blue"><i class="fa fa-search"></i></button></span>
+			</div>
+      		</form>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<!-- Modal load -->
+		<div class="modal register-modal container">
+		<div class="modal-heading">
+			<h4>Đăng ký mới</h4>
+		</div>
+		<form action="">
+			<div class="row">
+				<div class="col-xs-6">
+					<input type="text" class="form-control" placeholder="Tên đăng nhập *" name="username">
+					<input type="email" name="email" placeholder="Email *" class="form-control">
+					<input type="password" placeholder="Mật khẩu *" class="form-control" name="password">
+					<input type="password" placeholder="Xác nhận mật khẩu *" class="form-control" name="password-retype">
+					<button class="btn btn-primary form-submit" type="submit">Đăng ký</button>
+				</div>
+				<div class="col-xs-6">
+					<div class="form-notif">
+						<p>- Tên đăng nhập từ 6-15 ký tự</p>
+						<p>- Địa chỉ email phải xác thực</p>
+						<p>- Mật khẩu từ 6-15 ký tự</p>
+						<p>- Nhập lại mật khẩu</p>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="modal login-modal container">
+		<div class="modal-heading">
+			<h4>Đăng nhập</h4>
+		</div>
+		<form action="">
+			<div class="row">
+				<div class="col-xs-12">
+					<input type="text" class="form-control" placeholder="Tên đăng nhập hoặc email" name="username">
+					<input type="password" placeholder="Mật khẩu" class="form-control" name="password">
+					<button class="btn btn-primary form-submit" type="submit">Đăng nhập</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+	<div class="footer dark-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-xs-6">
+					<div class="bot-fix">
+						<span class="copy-right">
+						Copyright &copy; Guru 2014 - Bản quyền thuộc về guru.edu.vn
+						</span>
+						<span class="place">
+							88A-B Trần Huy Liệu p.5 Q.Phú Nhuận, HCMC - 0839876554
+						</span>
+						<div class="footer-links">
+							<a href="#" class="footer-link">
+								Our team
+							</a>
+							<a href="#" class="footer-link">
+								Blog
+							</a>
+							<a href="#" class="footer-link">
+								Facebook
+							</a>
+							<span style="display: none">Designed by Azeroz Nguyễn on 28th-May-2014</span>
+						</div>
+					</div>
+				</div>
+				<div class="visible-xs visible-sm col-xs-6">
+					<!-- For better performance -->
+				</div>
+				<div class="col-md-7 col-xs-12">
+					<div class="course-list-box row">
+						<div class="col-xs-4">
+							<ul class="course-list">
+								<li><a href="#"><i class="fa fa-trophy"></i> Thể thao</a></li>
+								<li><a href=""><i class="fa fa-university"></i> Giáo dục</a></li>
+								<li><a href=""><i class="fa fa-music"></i> Âm nhạc</a></li>
+								<li><a href="#"><i class="fa fa-heart"></i> Sức khỏe</a></li>
+								<li><a href=""><i class="fa fa-pencil"></i> Nghệ thuật</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-4">
+							<ul class="course-list">
+								<li><a href=""><i class="fa fa-briefcase"></i> Kinh doanh</a></li>
+								<li><a href=""><i class="fa fa-globe"></i> Ngoại ngữ</a></li>
+								<li><a href=""><i class="fa fa-rocket"></i> Công nghệ</a></li>
+								<li><a href=""><i class="fa fa-magic"></i> Khoa học xã hội</a></li>
+								<li><a href=""><i class="fa fa-flask"></i> Khoa học tự nhiên</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-4">
+							<ul class="course-list">
+								<li><a href=""><i class="fa fa-plane"></i> Du lịch</a></li>
+								<li><a href=""><i class="fa fa-paw"></i> Khám phá</a></li>
+								<li><a href=""><i class="fa fa-desktop"></i> Streaming</a></li>
+								<li><a href=""><i class="fa fa-wrench"></i> Do It Yourself</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- JQUERY LOAD -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- BOOTSTRAP.JS -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<!-- MAIN.JS -->
+	
+	<!-- MODAL.JS -->
+	<script src="js/easyModal.js"></script>
+	<script src="js/modal.js"></script>
+</body>
+</html>

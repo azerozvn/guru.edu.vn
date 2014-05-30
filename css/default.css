@@ -19,6 +19,55 @@ a:hover {
   text-decoration: none;
 }
 
+/* Navigator bar */
+
+nav.navbar.navbar-default{
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-custom{
+  padding: 20px 0;
+}
+
+.navbar-brand{
+  float: none;
+  position: relative;
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+.logo-title{
+  position: relative;
+  font-style: italic;
+  font-size: 16px;
+  color: #fff;
+  margin-left: -15px;
+  top: 5px;
+}
+
+.navbar-inner > li > a{
+  color: #fff !important;
+  padding: 10px 20px;
+  margin-top: 5px;
+}
+
+.navbar-inner > li:hover > a{
+  background: rgba(0,0,0,0.5) !important;
+  transition: 0.5s;
+}
+
+.search-bar{
+  width: 400px;
+  color: #fff;
+}
+
+.navbar-form.navbar-right{
+  margin-right: 10px !important;
+}
+
 /* Footer */
 
 .footer{
