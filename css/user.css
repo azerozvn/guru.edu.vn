@@ -20,3 +20,174 @@ body{
 		margin: 8px 0;
 	}
 }
+
+.user-area > .container{
+	padding: 30px 15px;
+}
+
+.user-area{
+	color: #333;
+}
+
+.user-avatar{
+	border-color: #aaa;
+	border-radius: 0;
+	width: 160px;
+	max-width: 100%;
+	vertical-align: text-top;
+}
+
+.user-main{
+	font-size: 16px;
+}
+
+.username{
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.user-title{
+	display: block;
+	font-size: 20px;
+}
+
+.user-subclass{
+	margin-top: 20px;
+}
+
+.user-points{
+	font-weight: bold;
+}
+
+.user-points > a{
+	color: rgba(308,62,100,1);
+}
+
+.user-points > a:hover{
+	text-decoration: underline;
+}
+
+.user-subclass > .row{
+	margin-top: 15px;
+}
+
+.user-subclass > .row > .col-xs-6:hover{
+	background: rgba(0,0,0,0.5);
+	border-radius: 4px;
+	color: #fff;
+}
+
+.user-subclass > .row > .col-xs-6{
+	padding: 10px;
+}
+
+.user-subclass > .row > .col-xs-6 > i{
+	display: inline-block;
+	margin-right: 3px;
+	width: 17px;
+}
+
+.user-info-heading{
+	margin-bottom: 15px;
+}
+
+.user-info-heading > h4{
+	margin-top: 0;
+	font-size: 30px;
+	width: 80%;
+	display: inline-block;
+}
+
+.user-info-heading > a{
+	color: #333;
+	font-size: 30px;
+	opacity: 0.5;
+	text-align: right;
+	display: inline-block;
+	width: 19%;
+}
+
+.user-info-heading > a:hover{
+	opacity: 1;
+}
+
+.user-table tr > td:first-child{
+	width: 30%;
+}
+
+.user-area hr{
+	border-color: #aaa;
+}
+
+.course-recent-heading{
+	font-size: 36px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.badges-heading{
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.course-recent > .row{
+	margin: 0;
+}
+
+.course-recent-box{
+	padding: 0;
+}
+
+.course-img-box{
+	margin-right: 20px;
+}
+
+.course-img{
+	max-width: 100%;
+	border-radius: 0;
+}
+
+.course-recent{
+
+}
+
+.course-title{
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.course-recent > .progress{
+	border-radius: 0;
+	height: 30px;
+	background: #ccc;
+}
+
+.course-recent > .progress > .progress-bar{
+	padding: 5px 0;
+}
+
+.badge-item{
+	width: 60px;
+}
+
+.course-table{
+	padding: 5px;
+	border: 2px solid rgba(49,154,49,1);
+}
+
+.course-table td{
+	vertical-align: middle !important;
+}
+
+.course-table thead > tr{
+	background: rgba(49,154,49,1);
+	color: #fff;
+	font-size: 20px;
+}
+
+.course-table tbody > tr{
+	font-size: 16px;
+	border-color: rgba(49,154,49,1);
+}
