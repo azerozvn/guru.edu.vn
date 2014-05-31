@@ -68,6 +68,21 @@ nav.navbar.navbar-default{
   margin-right: 10px !important;
 }
 
+.user-menu i{
+  display: inline-block;
+  width: 12px;
+  margin-right: 3px;
+}
+
+@media (max-width: 767px){
+  .user-menu > li > a{
+    color: #fff !important;
+  }
+  .user-menu > li > a:hover{
+    color: #fff;
+  }
+}
+
 /* Footer */
 
 .footer{
@@ -116,3 +131,4 @@ nav.navbar.navbar-default{
   width: 14px;
   margin-right: 5px;
 }
+
