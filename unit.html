@@ -68,8 +68,10 @@
 	<div class="site-wrapper">
 		<div class="main">
 			<!-- unit heading -->
-			<div class="row uni-heading">
+			<div class="row unit-heading">
 				<h1 class="unit-title">Hướng dẫn lập trình trên Windows Phone 8.1</h1>
+				<a href="#" class="sidebar-toggle sidebar-toggle-off pull-right hidden-sm hidden-xs" data-toggle="tooltip" data-placement="left" title="Phóng to"><i class="fa fa-2x fa-plus"></i></a>
+				<a href="#" class="sidebar-toggle sidebar-toggle-on pull-right hidden-sm hidden-xs" data-toggle="tooltip" data-placement="left" title="Thu nhỏ"><i class="fa fa-2x fa-minus"></i></a>
 			</div>
 			<!-- player -->
 			<div class="row">
@@ -85,9 +87,53 @@
 					</ul>
 					<div class="tab-content">
 					  	<div class="tab-pane active" id="playlist">
-					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ad, ipsum maxime veritatis modi repellat vitae voluptatum ducimus sed accusantium eligendi odit non assumenda animi quaerat fugiat praesentium debitis dolore.</p>
+					  		<table class="table course-table">
+					  			<thead>
+					  				<td style="width: 5%">#</td>
+					  				<td style="width: 70%">Tên bài</td>
+					  				<td style="width: 25%">Độ dài</td>
+					  			</thead>
+					  			<tbody>
+						  			<tr class="box-green" title="Đã hoàn thành" data-placement="left">
+						  				<td>1</td>
+						  				<td><a href="#">Lảm quen với C#</a></td>
+						  				<td>07:34</td>
+						  			</tr>
+						  			<tr class="box-green" title="Đã hoàn thành" data-placement="left">
+						  				<td>2</td>
+						  				<td><a href="#">Những thói quen lập trình căn bản</a></td>
+						  				<td>10:32</td>
+						  			</tr>
+						  			<tr class="light-gray" title="Đang học"  data-placement="left">
+						  				<td>3</td>
+						  				<td><a href="#">Hello World!</a></td>
+						  				<td>12:21</td>
+						  			</tr>
+						  			<tr title="Chưa hoàn thành" data-placement="left">
+						  				<td>4</td>
+						  				<td><a href="#">Làm sao để có gấu một cách nhanh nhất 1</a></td>
+						  				<td>10:00</td>
+						  			</tr>
+						  			<tr title="Chưa hoàn thành" data-placement="left">
+						  				<td>5</td>
+						  				<td><a href="#">Làm sao để có gấu một cách nhanh nhất 2</a></td>
+						  				<td>10:00</td>
+						  			</tr>
+						  			<tr title="Chưa hoàn thành" data-placement="left">
+						  				<td>6</td>
+						  				<td><a href="#">Làm sao để có gấu một cách nhanh nhất 3</a></td>
+						  				<td>10:00</td>
+						  			</tr>
+						  			<tr title="Chưa hoàn thành" data-placement="left">
+						  				<td>7</td>
+						  				<td><a href="#">Làm sao để có gấu một cách nhanh nhất 4</a></td>
+						  				<td>6:23</td>
+						  			</tr>
+					  			</tbody>
+					  		</table>
 					  	</div>
 					  	<div class="tab-pane" id="content">
+					  		<h2 class="tab-heading">Bài 1: Làm quen với C#</h2>
 					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, aut eligendi rerum neque repellat harum.</p>
 					  		<p><i>laboriosam vitae similique molestias obcaecati sint dolores repudiandae facere a iste velit cupiditate ea iure</i></p>
 					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, esse ducimus eaque! <strong>Illo, eius, alias, accusantium, velit libero</strong> repellat pariatur ea cupiditate commodi minus aliquam officia sint debitis doloribus magnam?</p>
@@ -105,7 +151,7 @@
 			</div>
 		</div>
 	</div>
-
+	
 	
 	<!-- JQUERY LOAD -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
