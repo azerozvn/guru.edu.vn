@@ -23,7 +23,7 @@
 <body>
 	<!-- navbar -->
 	<nav class="navbar navbar-default" role="navigation">
-	  	<div class="container-fluid navbar-custom box-prime">
+	  	<div class="container-fluid navbar-custom">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -61,121 +61,58 @@
 				<input type="text" placeholder="Nhập khóa học bạn muốn tìm" class="form-control" autocomplete="off">
 				<span class="input-group-btn"><button class="btn box-dark-blue"><i class="fa fa-search"></i></button></span>
 			</div>
-      		</form>
+	  		</form>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<div class="site-wrapper">
+		<div class="main">
+			<!-- unit heading -->
+			<div class="row uni-heading">
+				<h1 class="unit-title">Hướng dẫn lập trình trên Windows Phone 8.1</h1>
+			</div>
+			<!-- player -->
+			<div class="row">
+				<div class="col-md-8 col-xs-12 player">
+					<iframe class="unit-player" src="//www.youtube-nocookie.com/embed/NstDqf1lKBY" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-4 col-xs-12 sidebar">
+					<ul class="nav nav-tabs navbar-inverse sidebar-items">
+					  	<li class="sidebar-item"><a href="#playlist" data-toggle="tooltip tab" data-placement="bottom" title="Bài học"><i class="fa fa-list"></i></a></li>
+					  	<li class="sidebar-item"><a href="#content" data-toggle="tooltip tab" data-placement="bottom" title="Nội dung"><i class="fa fa-book"></i></a></li>
+					  	<li class="sidebar-item"><a href="#discussion" data-toggle="tooltip tab" data-placement="bottom" title="Thảo luận"><i class="fa fa-comments"></i></a></li>
+					  	<li class="sidebar-item"><a href="#note" data-toggle="tooltip tab" data-placement="bottom" title="Ghi chép"><i class="fa fa-pencil"></i></a></li>
+					</ul>
+					<div class="tab-content">
+					  	<div class="tab-pane active" id="playlist">
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ad, ipsum maxime veritatis modi repellat vitae voluptatum ducimus sed accusantium eligendi odit non assumenda animi quaerat fugiat praesentium debitis dolore.</p>
+					  	</div>
+					  	<div class="tab-pane" id="content">
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, aut eligendi rerum neque repellat harum.</p>
+					  		<p><i>laboriosam vitae similique molestias obcaecati sint dolores repudiandae facere a iste velit cupiditate ea iure</i></p>
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, esse ducimus eaque! <strong>Illo, eius, alias, accusantium, velit libero</strong> repellat pariatur ea cupiditate commodi minus aliquam officia sint debitis doloribus magnam?</p>
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque quam explicabo! Facilis, ullam ipsam voluptas? Quis, repellat, dolorem quibusdam unde velit nostrum magni quo labore aliquam dicta tempora quidem.</p>
+					  		<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, quis, corrupti itaque eos adipisci ab in inventore illum recusandae provident sint nobis molestias iusto sunt quos sit laudantium laborum odio.</strong></p>
+					  	</div>
+					  	<div class="tab-pane" id="discussion">
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, non, sequi, possimus, reiciendis quam est veritatis eos veniam nulla beatae sit porro iste reprehenderit a expedita! Animi autem optio culpa?</p>
+					  	</div>
+					  	<div class="tab-pane" id="note">
+					  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, ad error magnam cumque harum suscipit similique cupiditate optio ipsum quis temporibus voluptatum nam eos! Modi sit quo dolor labore iste!</p>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	
-	<!-- Modal load -->
-		<div class="modal register-modal container">
-		<div class="modal-heading">
-			<h4>Đăng ký mới</h4>
-		</div>
-		<form action="">
-			<div class="row">
-				<div class="col-xs-6">
-					<input type="text" class="form-control" placeholder="Tên đăng nhập *" name="username">
-					<input type="email" name="email" placeholder="Email *" class="form-control">
-					<input type="password" placeholder="Mật khẩu *" class="form-control" name="password">
-					<input type="password" placeholder="Xác nhận mật khẩu *" class="form-control" name="password-retype">
-					<button class="btn btn-primary form-submit" type="submit">Đăng ký</button>
-				</div>
-				<div class="col-xs-6">
-					<div class="form-notif">
-						<p>- Tên đăng nhập từ 6-15 ký tự</p>
-						<p>- Địa chỉ email phải xác thực</p>
-						<p>- Mật khẩu từ 6-15 ký tự</p>
-						<p>- Nhập lại mật khẩu</p>
-					</div>
-				</div>
-			</div>
-		</form>
-	</div>
-	<div class="modal login-modal container">
-		<div class="modal-heading">
-			<h4>Đăng nhập</h4>
-		</div>
-		<form action="">
-			<div class="row">
-				<div class="col-xs-12">
-					<input type="text" class="form-control" placeholder="Tên đăng nhập hoặc email" name="username">
-					<input type="password" placeholder="Mật khẩu" class="form-control" name="password">
-					<button class="btn btn-primary form-submit" type="submit">Đăng nhập</button>
-				</div>
-			</div>
-		</form>
-	</div>
-
-
-
-
-	<div class="footer dark-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-xs-6">
-					<div class="bot-fix">
-						<span class="copy-right">
-						Copyright &copy; Guru 2014 - Bản quyền thuộc về guru.edu.vn
-						</span>
-						<span class="place">
-							88A-B Trần Huy Liệu p.5 Q.Phú Nhuận, HCMC - 0839876554
-						</span>
-						<div class="footer-links">
-							<a href="#" class="footer-link">
-								Our team
-							</a>
-							<a href="#" class="footer-link">
-								Blog
-							</a>
-							<a href="#" class="footer-link">
-								Facebook
-							</a>
-							<span style="display: none">Designed by Azeroz Nguyễn on 28th-May-2014</span>
-						</div>
-					</div>
-				</div>
-				<div class="visible-xs visible-sm col-xs-6">
-					<!-- For better performance -->
-				</div>
-				<div class="col-md-7 col-xs-12">
-					<div class="course-list-box row">
-						<div class="col-xs-4">
-							<ul class="course-list">
-								<li><a href="#"><i class="fa fa-trophy"></i> Thể thao</a></li>
-								<li><a href=""><i class="fa fa-university"></i> Giáo dục</a></li>
-								<li><a href=""><i class="fa fa-music"></i> Âm nhạc</a></li>
-								<li><a href="#"><i class="fa fa-heart"></i> Sức khỏe</a></li>
-								<li><a href=""><i class="fa fa-pencil"></i> Nghệ thuật</a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<ul class="course-list">
-								<li><a href=""><i class="fa fa-briefcase"></i> Kinh doanh</a></li>
-								<li><a href=""><i class="fa fa-globe"></i> Ngoại ngữ</a></li>
-								<li><a href=""><i class="fa fa-rocket"></i> Công nghệ</a></li>
-								<li><a href=""><i class="fa fa-magic"></i> Khoa học xã hội</a></li>
-								<li><a href=""><i class="fa fa-flask"></i> Khoa học tự nhiên</a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<ul class="course-list">
-								<li><a href=""><i class="fa fa-plane"></i> Du lịch</a></li>
-								<li><a href=""><i class="fa fa-paw"></i> Khám phá</a></li>
-								<li><a href=""><i class="fa fa-desktop"></i> Streaming</a></li>
-								<li><a href=""><i class="fa fa-wrench"></i> Do It Yourself</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<!-- JQUERY LOAD -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- BOOTSTRAP.JS -->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<!-- MAIN.JS -->
-	
+	<script src="js/unit.js"></script>
 	<!-- MODAL.JS -->
 	<script src="js/easyModal.js"></script>
 	<script src="js/modal.js"></script>
