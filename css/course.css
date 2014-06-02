@@ -166,6 +166,11 @@ body{
 	font-size: 16px;
 }
 
+.course-intro-player{
+	margin-top: 30px;
+	width: 100%;
+}
+
 .course-intro hr{
 	border-top: 2px solid #777;
 }
@@ -236,6 +241,11 @@ body{
 .reviews-username{
 	margin-top: -5px;
 	font-size: 24px;
+	color: #F73942;
+}
+
+.reviews-rate{
+	color: #FFC919;
 }
 
 .reviews-rate{
