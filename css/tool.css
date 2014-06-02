@@ -15,7 +15,15 @@
 /* Box variations */
 
 .box-prime{
-  background: rgba(16,145,35,1);
+  background: #438eb9;
+}
+
+.box-latte{
+  background: rgba(16,145,35,1); 
+}
+
+.box-dark-blue{
+  background: #3154A8;
 }
 
 .box-blue{
