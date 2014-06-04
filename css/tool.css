@@ -12,6 +12,12 @@
   background: rgba(56,56,56,0.9);
 }
 
+/* Text variations */
+
+.low-heading{
+  font-weight: 300;
+}
+
 /* Box variations */
 
 .box-prime{
@@ -69,6 +75,8 @@
 .box-dark{
   background: rgba(79,79,79,1);
 }
+
+/* Animations */
 
 .animate-even{
   -webkit-animation-duration: 1.2s;
