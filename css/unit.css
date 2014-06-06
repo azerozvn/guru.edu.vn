@@ -1,10 +1,10 @@
 body{
 	color: #fff;
-	background: #333;
+	
 }
 
 .navbar-custom{
-	background: #333;
+	
 }
 
 .site-wrapper{
@@ -45,6 +45,7 @@ body{
 .unit-title{
 	margin-bottom: 20px;
 	width: 80%;
+	color: #333;
 }
 
 .sidebar-toggle{
