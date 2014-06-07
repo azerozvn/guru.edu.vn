@@ -1,10 +1,6 @@
 guru.edu.vn
 ===========
 
-
-Layout for guru.edu.vn
-----------------------
-
 An outsource project to improve www.guru.edu.vn layout.
 
 There are 4 pages that are fully converted.
