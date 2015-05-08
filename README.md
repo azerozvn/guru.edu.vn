@@ -10,4 +10,4 @@ There are 4 pages that are fully converted.
 - [Unit page](http://azerozvn.github.io/guru.edu.vn/unit.html)
 - [User page](http://azerozvn.github.io/guru.edu.vn/user.html)
 
-**Total cost: $250**
+**Total benefit: $250**
